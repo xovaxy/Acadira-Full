@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.window", "deno.ns", "esnext"],
+    "noImplicitAny": false,
+    "strict": false
+  },
+  "imports": {
+    "serve": "https://deno.land/std@0.168.0/http/server.ts"
+  }
+}

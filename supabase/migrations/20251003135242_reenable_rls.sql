@@ -1,0 +1,3 @@
+-- Re-enable RLS
+ALTER TABLE public.profiles ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.institutions ENABLE ROW LEVEL SECURITY;
